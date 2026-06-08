@@ -125,11 +125,11 @@ Infinite_Loop:
    
    
 g_pfnVectors:
-  .word  _estack
-  .word  Reset_Handler
+  .word  _estack 			/*0x00*/
+  .word  Reset_Handler 		/*0x04*/
 
-  .word  NMI_Handler
-  .word  HardFault_Handler
+  .word  NMI_Handler 		/*0x08*/
+  .word  HardFault_Handler /*0x0C*/
   .word  MemManage_Handler
   .word  BusFault_Handler
   .word  UsageFault_Handler
