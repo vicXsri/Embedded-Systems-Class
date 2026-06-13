@@ -97,7 +97,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-		  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, 0);
+		   (GPIOA, GPIO_PIN_5, 0);
 //
 //	  button_state = HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13);
 //
